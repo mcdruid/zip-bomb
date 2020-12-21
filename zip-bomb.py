@@ -49,7 +49,7 @@ def make_zip_flat(size, out_file, include_dirs, include_files):
 # files_nb = int(size / 100)
 # file_size = int(size / files_nb)
 
-  file_size = int(5 * 1000 * 1000)
+  file_size = int(4) # n.b. this in in mb
   files_nb = int(size / file_size)
 
   last_file_size = size - (file_size * files_nb)
